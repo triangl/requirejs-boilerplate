@@ -21,11 +21,11 @@ define([
     Tomate.prototype.constructor = Tomate;
 
     /**
-     * @return {string}
-     * @override
+     * @inheritDoc
      */
-    Tomate.prototype.getColor = function () {
-        return '[' + this.color + ']';
+    Tomate.prototype.getColor = function (toLower) {
+        var color = Fruit.prototype.getColor.call(this, toLower);
+        return '[' + color + ']';
     };
     return Tomate;
 });

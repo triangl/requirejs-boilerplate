@@ -11,5 +11,8 @@ require([
     console.log(fruit.getColor());
 
     var tomate = new Tomate('rouge');
+    console.log(tomate.getColor(true));
+
+    tomate = new Tomate('verte');
     console.log(tomate.getColor());
 });
