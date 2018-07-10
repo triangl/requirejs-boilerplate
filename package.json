@@ -1,0 +1,11 @@
+{
+  "name": "Foo",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "requirejs": ">0",
+    "knockout": ">0",
+    "jquery": ">0",
+    "phaser-ce": ">0"
+  }
+}
